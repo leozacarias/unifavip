@@ -8,9 +8,11 @@ public class Programa {
 		
 		TelaConsultorio telaConsultorio = new TelaConsultorio();
 		telaConsultorio.setVisible(true);
+		telaSenha.registrarObserver(telaConsultorio);
 		
 		TelaAtendimento telaAtendimento = new TelaAtendimento();
 		telaAtendimento.setVisible(true);
+		telaSenha.registrarObserver(telaAtendimento);
 	}
 
 }
